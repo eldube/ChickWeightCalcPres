@@ -6,17 +6,17 @@ date: 23 January 2015
 
 INTRODUCTION
 ========================================================
-  * The rate of growth for chicks can depend on the diet they are given.
-  
+  * The rate of growth for chicks can depend on the diet they are given (test update in atom xxx).
+
   * In this presentations, we report on a simple  application that could be used to calculate the projected weight of a chick given the age (number of days since birth)
-  
+
   * The applications can be used to :
     + Calculate the projected weight given the age
     + Compare the  growth rate of the chickens for  the different growth rates
-  
+
   * The application was develop in RStudio using  the   **shiny** package
 
-  * The calculations performed by the applications are based on a *linear regression model* build from an experimental dataset **ChickWeight** which is distributed with R version 3.1.2 
+  * The calculations performed by the applications are based on a *linear regression model* build from an experimental dataset **ChickWeight** which is distributed with R version 3.1.2
 
 THE APPLICATION INTERFACE
 ========================================================
@@ -62,5 +62,4 @@ model <-  getDietModel(ChickData = data, dietchoice = diet)
 plotDietModel(ChickData = data, dietchoice = diet, x=0, y=0)
 ```
 
-![plot of chunk unnamed-chunk-4](ChickWeightApp-figure/unnamed-chunk-4-1.png) 
-
+![plot of chunk unnamed-chunk-4](ChickWeightApp-figure/unnamed-chunk-4-1.png)
